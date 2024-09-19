@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Heading */
+  h1 {
+    margin-top: 20px;
+  }
+  
+  /* Canvas styling */
+  #fractalCanvas {
+    border: 1px solid #fff;
+    margin: 20px auto;
+    display: block;
+    /* Set the canvas to a specific width and height */
+    width: 800px;
+    height: 600px;
+  }
+  
+  /* Optional: Style for UI controls (if any) */
+  input[type="range"] {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
